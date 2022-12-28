@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://react-messaging-backen-abhoygorai.onrender.com",
         methods: ["GET", "POST"],
     },
 });
