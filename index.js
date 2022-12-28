@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = new Server(server, {
     cors: {
-        origin: "https://verdant-lokum-9f3d39.netlify.app",
+        origin: "https://abhoy-chat-app.netlify.app",
         methods: ["GET", "POST"],
     },
 });
